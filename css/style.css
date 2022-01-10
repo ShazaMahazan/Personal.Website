@@ -1,0 +1,255 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif; 
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.icon {
+	padding: 5px 0;
+	background-color: #B78C51;
+}
+.icon ul li {
+	display: inline-block;
+	color: #694F21;
+	margin-right: 10px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container: after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding: 20px 20px;
+	color: #4F3F2C;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	text-decoration: none;
+	color: #070325;
+	padding: 25px 20px;
+	display: inline-block;
+	transition: 0.6s ease;
+}
+header ul li a:hover {
+	background-color: #B78C51;
+	color: #F4DFC5;
+}
+.active {
+	background-color: #B78C51;
+	color: #fff ;
+}
+.banner {
+	height: 100vh;
+	background-image: url('../banner.jpg');
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+.banner: after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+.banner h2{
+	color: #060606;
+	font-size: 28px;
+	z-index: 1;
+	padding: 20px 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid #060606;
+	background-color: rgb(233, 225, 219, 0.6);
+}
+
+.About{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	background-image: url('../Wallpaper.jpg');
+	background-size: contain;
+	justify-content: center;
+	justify-items: center;
+}
+.About .content img {
+	height: auto;
+	width: 250px;
+	max-width: 100%;
+	border: 7px solid #392714 ;
+}
+.text {
+	width: 550px;
+	max-width: 100%;
+	padding: 0 10px;
+}
+.content {
+	width: 1280px;
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.text h1 {
+	color: #FFFFFF;
+	font-size: 55px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.text p {
+	font-size: 20px;
+	height: 5px;
+	line-height: 5px;
+	letter-spacing: 1px;
+	margin-bottom: 22px;
+	padding: 12px 2 2;
+	text-align: justify;
+
+}
+button{
+	background-color: #D8B4B4;
+	color: black;
+	border: 2px solid transparent;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
+button:hover {
+	transform: scale(1.2);
+	background-color: transparent;
+	border: 2px solid #D8B4B4;
+	color: #B704B1;
+	transition: .4s;
+	cursor: pointer;
+}
+.Education {
+	border: 4px solid #060606;
+	width: 95%;
+	height: 30vh;
+	display: flex;
+	background-color: #EBE3C8;
+	justify-content: center;
+	justify-items: center;
+	padding: 30px 30px;
+}
+.Education h2 {
+	padding: 20px 0;
+	color: #704F03;
+}
+.table {
+	padding: 30px 0;
+	width: 70%;
+	justify-content: center;
+	justify-items: left;
+}
+.Experience{
+	width: 100%;
+	height: 15vh;
+	background-color:#EBE3C8 ;
+	justify-content: center;
+	justify-items: center;
+	padding-top: 35px;
+	color: #423B22;
+	font-size: 40px;
+	text-transform: capitalize;
+	border: 5px solid #423B22;	
+}
+.padding {
+	width: 60%;
+	justify-content: center;
+	padding: 25px 20%;
+	background-color: #C2B891;
+	border: 5px solid #423B22;
+}
+.padding p {
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 70%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #C6C2AC;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgb(0, 0, 0, .9);
+	display: flex;
+	transform: 0.5s;
+}
+
+.box .content {
+	padding-left: 20px;
+}
+.box .content h2 {
+	margin: 0;
+	padding-left: 0;
+	color: #A231EC;
+	font-size: 22px;
+}
+.box .content h3 {
+	margin: 0;
+	padding: 10px 10px;
+	padding-left: 0;
+	color: #060606;
+	font-size: 16px;
+}
+.box .content p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+}
+.heading{
+	width: 99.6%;
+	height: 10vh;
+	background-color:#EBE3C8 ;
+	justify-content: center;
+	justify-items: center;
+	padding-top: 35px;
+	color: #423B22;
+	font-size: 40px;
+	text-transform: capitalize;
+	border: 3px solid #392B25;
+}
+.images{
+	padding-top: 20px;
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 25px;
+	cursor: pointer;
+}
+.content2 img{
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+}
+
+
+
